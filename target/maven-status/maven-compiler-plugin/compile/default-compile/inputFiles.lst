@@ -1,0 +1,16 @@
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/soappractice/soapimpl/SoapImplApplication.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/soappractice/soapimpl/config/CalculatorWebServiceImpl.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/soappractice/soapimpl/config/CountryRepository.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/soappractice/soapimpl/config/WebServiceConfig.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/Country.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/Currency.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/GetCountryRequest.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/GetCountryResponse.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/ObjectFactory.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/Country.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/Currency.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/GetCountryRequest.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/GetCountryResponse.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/ObjectFactory.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/package-info.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/package-info.java
