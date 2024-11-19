@@ -1,7 +1,7 @@
 package com.soappractice.soapimpl.config;
 
-
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
@@ -18,24 +18,25 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 
     @Bean
     public XsdSchema countrySchema() {
-        return new SimpleXsdSchema(new ClassPathResource("country.xsd"));
+        return new SimpleXsdSchema(new ClassPathResource("user.xsd"));
     }
 
     @Bean
-    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema countrySchema) {
+    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema userSchema) {
         DefaultWsdl11Definition definition = new DefaultWsdl11Definition();
-        definition.setPortTypeName("CountryPort");
-        definition.setLocationUri("/ws");
-        definition.setTargetNamespace("http://spring.io/guides/gs-producing-web-service");
-        definition.setSchema(countrySchema);
+        definition.setSchema(userSchema);
+        definition.setLocationUri("/soapWS");
+        definition.setPortTypeName("UserServicePort");
+        definition.setTargetNamespace("http://mp.com/spring-boot-soap");
         return definition;
     }
 
     @Bean
-    public ServletRegistrationBean<MessageDispatcherServlet> messageDispatcherServlet() {
+    public ServletRegistrationBean<MessageDispatcherServlet> messageDispatcherServlet(ApplicationContext context) {
         MessageDispatcherServlet servlet = new MessageDispatcherServlet();
         servlet.setTransformWsdlLocations(true);
-        return new ServletRegistrationBean<>(servlet, "/ws/*");
+        servlet.setApplicationContext(context);
+        return new ServletRegistrationBean<>(servlet, "/soapWS/*");
     }
 }
 

@@ -1,9 +1,9 @@
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/mp/spring_boot_soap/GetUserRequest.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/mp/spring_boot_soap/GetUserResponse.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/mp/spring_boot_soap/ObjectFactory.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/mp/spring_boot_soap/User.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/mp/spring_boot_soap/package-info.java
 /home/lenovo/Desktop/soap_implementation/src/main/java/com/soappractice/soapimpl/SoapImplApplication.java
-/home/lenovo/Desktop/soap_implementation/src/main/java/com/soappractice/soapimpl/config/CountryEndpoint.java
 /home/lenovo/Desktop/soap_implementation/src/main/java/com/soappractice/soapimpl/config/WebServiceConfig.java
-/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/Country.java
-/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/Currency.java
-/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/GetCountryRequest.java
-/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/GetCountryResponse.java
-/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/ObjectFactory.java
-/home/lenovo/Desktop/soap_implementation/src/main/java/generated/io/spring/guides/gs_producing_web_service/package-info.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/soappractice/soapimpl/config/endpoint/CountryEndpoint.java
+/home/lenovo/Desktop/soap_implementation/src/main/java/com/soappractice/soapimpl/config/endpoint/UserEndpoint.java

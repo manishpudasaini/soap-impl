@@ -1,8 +1,7 @@
-io/spring/guides/gs_producing_web_service/GetCountryResponse.class
-io/spring/guides/gs_producing_web_service/GetCountryRequest.class
-io/spring/guides/gs_producing_web_service/package-info.class
-io/spring/guides/gs_producing_web_service/ObjectFactory.class
-generated/io/spring/guides/gs_producing_web_service/package-info.class
+com/mp/spring_boot_soap/User.class
+com/mp/spring_boot_soap/GetUserResponse.class
+com/mp/spring_boot_soap/package-info.class
+com/mp/spring_boot_soap/GetUserRequest.class
+com/soappractice/soapimpl/config/WebServiceConfig.class
 com/soappractice/soapimpl/SoapImplApplication.class
-io/spring/guides/gs_producing_web_service/Country.class
-io/spring/guides/gs_producing_web_service/Currency.class
+com/mp/spring_boot_soap/ObjectFactory.class

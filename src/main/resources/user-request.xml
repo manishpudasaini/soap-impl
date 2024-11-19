@@ -1,0 +1,14 @@
+<!-- Request body while sending for request
+     endpoint : localhost:8888/soapWS
+     METHOD : POST
+     content-type : text/xml -->
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://mp.com/spring-boot-soap">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:name>Manish</us:name>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
